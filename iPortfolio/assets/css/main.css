@@ -1278,3 +1278,41 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.test-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cfebfa;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 400px;
+  height: 500px;
+  perspective: 1000px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.card-front{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.card-front {
+  background-color: #ffffff;
+}
