@@ -1297,6 +1297,7 @@ section,
   perspective: 1000px;
   margin-top: 15px;
   margin-bottom: 15px;
+  display: flex;
 }
 
 
@@ -1435,4 +1436,36 @@ section,
   background-color: #2563eb;
   border-radius: 50%;
   left: calc(50% - 5px);
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_mission {
+  font-size: large;
+  width: 325px;
+  height: 510px;
+  display: flex;
+  flex-direction: column; /* Disposition du texte verticalement */
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfdfd;
+  border: 2px solid #030303;
+  box-shadow: 0 4px 8px rgb(61, 61, 61);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card_mission p {
+  margin: 0;
+}
+
+.card_mission b {
+  font-weight: bold;
 }
